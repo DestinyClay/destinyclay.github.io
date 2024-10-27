@@ -1,1 +1,342 @@
+<!DOCTYPE html><html class=''>
+  <head><script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/chpecson/pen/vKmbkv?depth=everything&limit=all&order=popularity&page=2&q=portfolio&show_forks=false" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://www.w3schools.com/lib/w3.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px|Pacifico" >
 
+  <style class="cp-pen-styles">
+  
+  body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Slabo 27px", serif;
+  }
+  body, html {
+      height: 100%;
+      color: #777;
+      line-height: 1.8;
+  }
+  .w3-navbar { color: black; font-weight: bold; }
+  .w3-navbar li a:hover { background-color: rgba(0,0,0,0.2); color: #fff; }
+
+  /* Create a Parallax Effect */
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+      opacity: 1.0;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+      background-image: url('https://i.ibb.co/dKfWkL9/background3.png');
+      min-height: 400px;
+      min-height: 100%;
+  }
+  /* Second image (Portfolio) */
+  .bgimg-2 {
+      background-image: url("https://i.ibb.co/dKfWkL9/background3.png");
+      min-height: 400px;
+  }
+  /* Third image (Contact) */
+  .bgimg-3 {
+      background-image: url("https://i.ibb.co/dKfWkL9/background3.png");
+      min-height: 400px;
+  }
+  .w3-wide {
+    font-size: 1.5em;
+    letter-spacing: 10px;
+  }
+  .w3-hover-opacity {cursor: pointer;}
+
+  /* Turn off parallax scrolling for tablets and mobiles */
+  @media only screen and (max-width: 1024px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+          background-attachment: scroll;
+      }
+  }
+  #about {
+    font-size: 1.0em;
+  }
+  .heart-icon {
+    color: rgb(243, 152, 157);
+  }
+  /* Clearfix Hack */
+  .cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  .cf:after {
+      clear: both;
+  }
+  .cf {
+      *zoom: 1;
+  }
+  /* Social Media Icons */
+  .w3-half > a {
+    text-decoration: none;
+  }
+  i.fa {
+    padding-top: .2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: color 1s;
+  }
+  .fa-github:hover {color: rgb(158, 68, 170);}
+  .fa-facebook:hover {color: #04a;}
+  .fa-linkedin:hover {color: rgb(62, 186, 243);}
+
+  #profile { vertical-align: middle; }
+  </style>
+  </head>
+
+
+  <body>
+  <div class="w3-top">
+    <ul class="w3-navbar" id="myNavbar">
+      <li>
+          <a href="#top" class="w3-padding-large">Destiny Clay</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#resume"  class="w3-padding-large">Resume</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#about" class="w3-padding-large">About</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- First Parallax Image with Logo Text -->
+  <div id="top" class="bgimg-1 w3-opacity w3-display-container">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Destiny Clay</h1>
+    </div>
+  </div>
+  
+  <!-- Container (About Section) -->
+  <div id="about" class="w3-content w3-container w3-padding-64">
+    <h2 class="w3-center">About Me</h2>
+    
+      <p>
+        My name is Destiny Clay. I am a dedicated Network Engineering and Cybersecurity student with a passion for technology. <br><br>
+
+        With hands on experience with Cisco routers and switches, I thrive on tackling complex networking challenges and enhacing security measures. My technical skills encompass a wide variety of protocols and configurations, 
+        and I have successfully implemented solutions that have been adopted by my professor for future cohorts' networking projects. <br><br>
+        
+        As the current president of the Danville Community College CyberKnights club, I take the lead in organizing our monthly meetings. I create detailed agendas to keep discussions focused and ensure our professors stay on track.
+        This leadership has fostered a productive environment where collaboration flourishes, and fellow students often turn to me for guidance and support in the program.<br><br>
+       
+       In addition to my networking expertise, I have hands on experience with Active Directory and virtual environments. I am proficient in configuring NTFS permissions, managing network shares, and organizing user groups. My experiece with virtualization platforms
+       like Oracle VirtualBox, Proxmox, and VMware allows me to create and manage multiple virtual machines. These skills helped me enhance my understanding of network architecture. <br><br>
+        
+       My Cisco home lab along with the time I spend every week in my college's server room, is a cornerstone of my hands-on learning experience. This has allowed me to explore and troubleshoot networking concepts in a real world setting. 
+       I set up various Cisco devices to simulate complex network environments, where I diagnose and resolve issues, and implement configurations. <br><br>
+        
+       I believe in the power of continuous, lifelong learning, and I continue to actively seek out opportunities to grow my expertise through practical projects.<br><br>
+        
+        <br>
+        
+        
+        </p>
+  
+      <!-- Hide this text on small devices -->
+      
+        <h2 class="w3-center">Technical Proficiencies and Certifications</h2>
+          <p class="w3-center">
+            DNS, DHCP, OSPF, HSRP, RIP, EIGRP, RDP, SSH, TCP/IP, CDP, ARP, ICMP, Traceroute, Netstat, Nslookup <br>
+            VLANS, Etherchannel, DHCP Snooping, Port Security <br>
+            NAT, ACL, Static Routes, Dynamic Routes, IP Connectivity <br>
+            Cisco IOS, Apple iOS, Windows, Kali Linux, Ubuntu <br>
+            Active Directory, Oracle VirtualBox, Proxmox, VMware <br>
+            Cisco CCNA | In Progress
+
+            
+          </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-opacity w3-display-container">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Portfolio</h1>
+    </div>
+  </div>
+  
+  <!-- Container (Portfolio Section) -->
+  <div id="portfolio"class="w3-content w3-container w3-padding-64">
+    <h2 class="w3-center">Projects</h2>
+    <p class="w3-center"><em>Below are examples of networking projects and my technical reference guide. </em></p><br>
+    <div class="w3-row">
+      <div class="w3-col m4 w3-section"align="center">
+        <img src="https://i.ibb.co/gRkfGtw/homelab2.png" height=190 width=280><br>
+        <strong>Cisco Home Lab</strong><br>
+        <p>
+          <br>
+         Consists of Cisco routers and switches, two Raspberry Pi 4's, and an Intel NUC. <br>
+         One is being utilized for Minicom over SSH.
+         The other is being utilized as a wireless ethernet bridge. <br>
+         Intel NUC is using Proxmox to host virtual machines.
+
+        </p>
+      </div>
+      <div class="w3-col m4 w3-section" align="center" style="padding-left: 20px; padding-right: 20px">
+        <img src="https://i.ibb.co/yBwXnCG/Screenshot-2024-10-27-152657.png" height=190 width=280><br>
+        <strong>Technical Reference Guide</strong><br>
+        <a href="https://github.com/DestinyClay/Technical-Reference-Guide">View Repository</a>
+        <p>
+          This guide includes how to make Windows and Linux virtual machines, personalize Windows, using the Registry Editor, and general Active Directory labs. I am still adding to this guide every week.
+        </p>
+      </div>
+      <div class="w3-col m4 w3-section"align="center" >
+        <img src="https://i.ibb.co/nmdVGx1/Final-Project.png" height=190 width=280><br>
+        <strong>Current Semester Final Networking Project</strong><br>
+        <a href="https://github.com/DestinyClay/Current-Semester-Final-Networking-Project">Visit Repository</a>
+        <p>
+          My current semester networking project includes the implementation of VLANS, Port Security, HSRP, and DHCP Snooping. This project also has my VLAN and DHCP redundancy, which was added to the project for future students.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" style="max-width:100%">
+    </div>
+  </div>
+  
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-opacity w3-display-container">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Resume</h1>
+    </div>
+  </div>
+  
+  <!-- Container (Contact Section) -->
+  <div id="resume" class="w3-content w3-container w3-padding-64">
+    <h1 class="w3-center">Destiny Clay</h1>
+    <p class="w3-center">Danville, VA   |   destinylc24@gmail.com</a>   |   (434) 710-0781 | Github: https://github.com/DestinyClay | Website: https://destinyclay.github.io/</p>
+
+    <div class="w3-row">
+
+      <div class="w3-col m6 w3-section">
+        <h2>Education</h2>
+        <p> 
+          <strong>Danville Community College | NSA Accredited Institution</strong><br>
+            <em>Associates of Applied Science: Network Engineering<br>
+              Cumulative GPA: 4.0</em><br>
+            Danville, VA | Graduating: Spring 2026<br>
+          <br>
+          <strong>Danville Community College | NSA Accredited Institution</strong><br>
+            <em>Associate of Applied Science: Network and Cybersecurity<br>
+            Cumulative GPA: 4.0</em><br>
+            Danville, VA | Graduating: Spring 2026</p><br>
+
+        <h2>Certifications</h2>
+        <p> 
+          Cisco CCNA | In Progress<br>
+          
+            
+        <h2>Memberships</h2>
+        <p>
+          Danville Community College CyberKnights | Club president <br>
+          Phi Theta Kappa Honor Society
+
+        </p>
+        <h2>Technical Proficiencies</h2>
+        <p>
+          DNS, DHCP, OSPF, HSRP, RIP, EIGRP, RDP, SSH, TCP/IP, CDP, ARP, ICMP, Traceroute, Netstat, Nslookup <br>
+
+          VLANS, Etherchannel, DHCP Snooping, Port Security<br>
+
+          NAT, ACL, Static Routes, Dynamic Routes, IP Connectivity<br>
+
+          Cisco IOS, Apple iOS, Windows, Kali Linux, Ubuntu<br>
+
+          Active Directory, Oracle VirtualBox, Proxmox, VMware<br>
+        </p>
+
+      </div>
+
+      <div class="w3-col m6 w3-section">
+        <h2>Professional Experience</h2>
+        <p>
+          <strong>Search Quality Rater</strong><br>
+          <em>Welocalize; December 2023 – Present</em>
+            <ul>
+              <li>Strong understanding of user intent and behavior which helped assess and improve AI search
+                algorithms.</li>
+              <li>Stayed above the quality threshold each month by 10% or more.</li>
+              <li>Provided valuable insights and recommendations for improving search relevance and user
+                satisfaction.</li>
+            
+            </ul>
+           
+
+
+          <strong>Sales Associate</strong><br>
+          <em>Marshalls; October 2020 - March 2024</em><br>
+      
+        <ul>
+          <li>Provided exceptional customer service through personable and knowledgeable assistance.</li>
+          <li>Applied problem-solving skills to promptly and effectively address customer inquiries and
+            conflicts.</li>
+          <li>Utilized point of sale systems and inventory management software to streamline operations and
+            improve accuracy.</li>
+                
+        </ul>
+         
+        </ul>
+        
+          <strong>Certified Trainer and Team Member</strong><br>
+          <em>Chipotle Mexican Grill; February 2019 - October 2020</em><br>
+          <ul>
+            <li>Successfully balanced various responsibilities in a face paced environment, demonstrating
+              strong multi-tasking abilities.</li>
+              <li>Trained new team members in multiple areas.</li>
+            <li>Collaborated effectively with team members to ensure smooth operations.</li>
+
+          </ul>
+          <br>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black cf">
+    <div class="w3-half">
+      <a target="_blank" href="https://github.com/DestinyClay">
+        <i class="fa fa-github fa-2x"></i>
+      <a target="_blank" href="https://www.linkedin.com/in/destiny-clay-3604441b4/">
+        <i class="fa fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+    <p class="w3-half"><span class="heart-icon">❤</span> Destiny Clay 2024</p>
+  </footer>
+  <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://maps.googleapis.com/maps/api/js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
+  <script >// Smooth Scroll on anchor links
+  // Change style of navbar on scroll
+  window.onscroll = function() {
+    myFunction()
+  };
+
+  function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+      navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+  }
+
+  //# sourceURL=pen.js
+  </script>
+  </body></html>
